@@ -12,17 +12,20 @@
 </head> 
 <body> 
 
-<div data-role="page">
-
-	<div data-role="header">
-		<h1>My Title</h1>
-	</div><!-- /header -->
-
-	<div data-role="content">	
-		<p>Hello world</p>		
-	</div><!-- /content -->
-
-</div><!-- /page -->
-
+<div data-role="page" class="jqm-demos" id="panel-fixed-page1" data-title="Panel fixed positioning" data-url="panel-fixed-page1">
+    <div data-role="header" data-position="fixed">
+        <h1>Tipr</h1>
+        <a href="#nav-panel" data-icon="bars" data-iconpos="notext">Menu</a>
+    </div><!-- /header -->
+    <div role="main" class="ui-content jqm-content jqm-fullwidth">
+        <h1>Lorem ipsum</h1>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illo, nesciunt molestias neque dignissimos esse cupiditate. Cupiditate, ipsum quia natus suscipit pariatur laborum quas nemo incidunt consequuntur recusandae distinctio ullam quae!</p>
+    </div><!-- /content -->
+    <div data-role="panel" data-position-fixed="true" data-display="push" data-theme="b" id="nav-panel">
+        <ul data-role="listview">
+            <li data-icon="delete"><a href="#" data-rel="close">Close menu</a></li>
+        </ul>
+    </div><!-- /panel -->
+</div>
 </body>
 </html>
