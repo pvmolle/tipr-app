@@ -17,6 +17,10 @@ function drawChart() {
         draw(data, {
             width: $('#chart').width(),
             height: 200,
-            colors: ['#ff6600']
+            colors: ['#ff6600'],
+            legend: { position: 'none' },
+            chartArea: {
+                width: '100%'
+            }
         });
 }
