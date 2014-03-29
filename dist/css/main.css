@@ -1491,3 +1491,7 @@ button[disabled],
   padding: 0;
   margin: 0;
 }
+
+#chart-data {
+  display: none;
+}
