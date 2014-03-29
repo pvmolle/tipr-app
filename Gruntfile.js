@@ -25,7 +25,7 @@ module.exports = function(grunt) {
 			},
 			html: {
 				files: ['src/*.html'],
-				tasks: ['copy']
+				tasks: ['copy:html']
 			},
 			sass: {
 				options: {
@@ -37,6 +37,13 @@ module.exports = function(grunt) {
 			css: {
 				files: ['dist/css/*.css']
 			},
+            scripts: {
+                options: {
+                    livereload: false
+                },
+                files: ['src/js/*.js'],
+                tasks: ['copy:js']
+            },
 			js: {
 				files: ['dist/js/*.js']
 			}
