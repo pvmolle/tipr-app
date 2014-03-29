@@ -31,7 +31,30 @@
         </div>
         <div data-theme="a" data-form="ui-body-a" class="ui-body ui-body-a ui-corner-all tipr-separate tipr-header aboutme">
             <h3>About Steve</h3>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dicta, iste vel quo mollitia dolorum atque hic quibusdam eos assumenda quos in optio voluptatum ipsa reprehenderit sapiente veritatis ad voluptates fugiat!</p>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dicta!</p>
+        </div>
+        <div data-theme="a" data-form="ui-body-a" class="amount">
+            <form>
+                <fieldset data-role="controlgroup" data-type="horizontal">
+                    <button class="ui-btn ui-shadow ui-corner-all ui-icon-arrow-d ui-btn-icon-notext">down</button>
+                    <button class="ui-btn ui-shadow ui-corner-all input-amount">
+                        <input type="text" name="textinput-2" id="textinput-2" placeholder="€1,20" value="">
+                    </button>
+                    <button class="ui-btn ui-shadow ui-corner-all ui-icon-arrow-u ui-btn-icon-notext">up</button>
+                </fieldset>
+                <div data-role="popup" id="popupLogin" data-theme="a" class="ui-corner-all">
+                    <form>
+                        <div style="padding:10px 20px;">
+                            <h3>Bevestig donatie</h3>
+                            <input type="text" name="user" id="un" value="" placeholder="Gebruikersnaam" data-theme="a">
+                            <input type="password" name="pass" id="pw" value="" placeholder="PIN Code" data-theme="a">
+                            <button type="submit" class="ui-btn ui-corner-all ui-shadow ui-btn-b ui-btn-icon-left ui-icon-check">Doneren</button>
+                            <a href="signup.html">Nog geen account?</a>
+                        </div>
+                    </form>
+                </div>
+            </form>
+            <a href="#popupLogin" data-rel="popup" data-position-to="window" class="ui-btn ui-corner-all ui-shadow ui-btn-inline ui-icon-check ui-btn-icon-left ui-btn-a" data-transition="pop">Doneren</a>
         </div>
         <div class="ui-grid-a ui-corner-all tipr-separate custom-corners">
             <div class="ui-block-a">

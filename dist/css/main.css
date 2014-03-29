@@ -1473,3 +1473,21 @@ button[disabled],
 .aboutme h3 {
   margin: 0 0 -10px;
 }
+
+.amount {
+  text-align: center;
+}
+
+.amount .input-amount {
+  padding: 0.2em 2em !important;
+}
+
+.amount .ui-input-text {
+  margin: 0;
+}
+
+.amount input {
+  width: 115px !important;
+  padding: 0;
+  margin: 0;
+}
