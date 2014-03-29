@@ -98,7 +98,7 @@ module.exports = function(grunt) {
 			},
 			images: {
 				expand: true,
-				src: 'src/images/*',
+				src: 'src/images/**/*',
 				dest: 'dist/images',
 				flatten: true
 			}
