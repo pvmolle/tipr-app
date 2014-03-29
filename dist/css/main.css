@@ -1416,6 +1416,19 @@ button[disabled],
   background-image: url(../images/icons-png/video-black.png);
 }
 
-.separate {
+.tipr-separate {
   margin: 1em 0;
+}
+
+.tipr-image {
+  padding: 0 !important;
+}
+
+.tipr-header {
+  max-height: 200px;
+}
+
+.tipr-tab {
+  margin: 0;
+  padding: 0 !important;
 }
