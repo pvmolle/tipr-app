@@ -36,7 +36,7 @@ function drawChart() {
                 colors: ['#ff6600'],
                 legend: { position: 'none' },
                 chartArea: {
-                    width: '100%'
+                    width: '80%'
                 }
             });
     }
